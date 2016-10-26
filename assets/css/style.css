@@ -1,0 +1,40 @@
+html, body {
+	height:100%;
+	width:100%;
+}
+
+body {
+	background: url("../images/background.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 48px;
+	text-align: center;
+	color: darkblue;
+}
+
+@font-face {
+	font-family: WaltDisneyScript;
+	src: url('../fonts/wds052801.ttf') format('truetype');
+}
+
+.disney-font {
+	font-family: WaltDisneyScript,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.movieButton, #addMovie {
+	margin: 5px;
+	border-radius: 6px;
+	background-color: mediumpurple;
+	color: white;
+}
+
+.movieInfo {
+	float: left;
+	margin: 10px;
+}
+
+.movieRating {
+	font-weight: 700;
+}
